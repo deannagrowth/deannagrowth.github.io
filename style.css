@@ -1,0 +1,84 @@
+
+body{
+    background-color: #FFC300;
+
+}
+h1{
+    
+    font-family: 'Roboto Mono', monospace;
+    color: #A569BD;
+    position: absolute;
+    float: left;
+    left: 50px;
+}
+
+img{
+    position: absolute;
+    float: right;
+    right: 50px;
+}
+
+navbar{
+    background-color: #73C6B6;
+    position: fixed;
+    top: 0;
+    padding: 0;
+    z-index: 99;
+}
+li{
+    list-style-type: none;
+    text-decoration: none;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 18px;
+    padding-top: 50px;
+    float: left;
+    margin: 20px;
+    
+}
+.split{
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    
+}
+
+.grid{
+    display: grid;
+    position: relative;
+    height: 100%;
+    width:100%;
+    margin-top: 150px;
+    grid-template: 1fr 1fr/ 1fr 1fr;
+    
+}
+.box img{
+    width: 25%;
+    height: 25%;
+    justify-content: center;
+}
+p{
+   position: absolute;
+    margin: 50px;
+    margin-top: 150px;
+    justify-content: center;
+}
+h2{
+    font-family: 'Roboto Mono', 'monospace';
+    margin: 50px;
+}
+
+.left{
+ left: 0; 
+    width: 75%
+}
+
+.right{
+    right: 0;
+    width: 25%;
+}
+centered{
+    
+}
+/*how to split the page in half and have the homework page appear*/
