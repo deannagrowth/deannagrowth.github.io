@@ -1,0 +1,76 @@
+body{
+    background-color: black;
+}
+
+
+p{
+    font-family: 'Lora', serif;
+    font-size: 36pt;
+    color: #A569BD;
+}
+
+.options{
+    color: yellow;
+
+    
+}
+.narrative{
+
+    padding: 20px 20px 50px 40px;
+    margin-left: 5px;
+    transition: width 2s, height 2s, transform 2s;
+}
+
+
+/* <--how to make this animate to uncover something underneath-->*/
+
+.narrative:hover{
+    transform: matrix(-0.5, 1, 1, 1, 0, 0);
+    
+}
+ul{
+    position:relative;
+    z-index: 0px;
+}
+
+    
+.bed{
+   color: yellow; 
+    background-color: blueviolet;
+    
+}
+.bed:hover{
+    animation-name: colorChange;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+}
+.options{
+   color: yellow; 
+    background-color: blueviolet;
+    
+}
+.options:hover{
+    animation-name: colorChange;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+}
+
+
+@keyframes colorChange{
+    0% {
+        background-color:yellow;
+    }
+    25%{
+        background:blue;
+    }
+    75%{
+        background-color: purple;
+    }
+    100%{
+        background-color:yellow;
+    }
+}
+
+@media max-wdth(500px){
+    .narrative
+} /* <--how to click on sound and have it play, then creating different names to pick a person--> */
