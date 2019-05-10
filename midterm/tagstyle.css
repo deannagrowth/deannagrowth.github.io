@@ -1,0 +1,31 @@
+body{
+    background-image: repeating-radial-gradient(red, blue 20%, green 30%);
+    margin: 20px;
+}
+
+h1{
+    text-align: center;
+    font-family:'Roboto Mono', monospace;
+    color:#57da06;
+    font-size: 38px;
+}
+img{
+    align-content: center;
+}
+
+ques1{
+    width: 200px;
+    
+}
+
+button{
+    width: 200px;
+    height: 50px;
+    font-size: 18px;
+    font-family:'Roboto Mono', monospace;
+    
+}
+
+.disabled{
+  visibility: hidden;
+}
