@@ -9,7 +9,7 @@ h1{
     color: #A569BD;
     position: absolute;
     float: left;
-    left: 50px;
+    left: 60px;
 }
 
 img{
@@ -53,22 +53,17 @@ li{
     grid-template: 1fr 1fr/ 1fr 1fr;
     
 }
-.box img{
-    width: 25%;
-    height: 25%;
-    justify-content: center;
-}
 p{
    position: absolute;
     margin: 50px;
     margin-top: 150px;
     justify-content: center;
 }
-h2{
+h3{
     font-family: 'Roboto Mono', 'monospace';
-    margin: 50px;
+    margin: 100px;
+    float: left;
 }
-
 .left{
  left: 0; 
     width: 75%

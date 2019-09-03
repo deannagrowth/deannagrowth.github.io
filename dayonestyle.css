@@ -1,0 +1,29 @@
+body{
+    background-color: #f4c2c1;
+}
+h2{
+    font-family: 'Roboto Mono', monospace;
+    color: #FFFFFF;
+    position: absolute;
+    margin:50px;
+    padding: 10px;
+}
+h3{
+    font-family: 'Roboto Mono', monospace;
+    color: #FFFFFF;
+    position: absolute;
+    right: 70px;
+    top: 50px;
+}
+#boxa{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 13px;
+    color: #FFFFFF;
+    position: absolute;
+    padding: 20px;
+    margin: 10px;
+    top: 150px;
+    width: 50%;
+img{
+       position: absolute; 
+    }

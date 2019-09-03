@@ -1,0 +1,24 @@
+body{
+    
+}
+h1{
+    font-family: 'Roboto Mono', monospace;
+    position: absolute;
+    padding: 10px;
+}
+h2{
+    font-family: 'Roboto Mono', monospace;
+    padding-top: 100px;
+    padding-left: 50px;
+}
+p{
+    padding: 10px;
+}
+table,th{
+    font-family: 'Roboto Mono', monospace;
+    border: 1px solid black;
+    padding: 5px;
+}
+th:hover {
+    background-color: #f5f5f5;
+}

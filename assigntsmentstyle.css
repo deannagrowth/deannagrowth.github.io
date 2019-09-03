@@ -1,0 +1,29 @@
+body{
+    background-color: #9CCC65; 
+}
+h1{
+    font-family: 'Roboto Mono', monospace;
+    float: left;
+    color: #660099;
+
+}
+
+h2{
+    font-family: 'Roboto Mono', monospace;
+    color: #660099;
+    
+}
+#studio{
+position: absolute;
+    float: right;
+    top: 200px;
+    padding-left: 500px;
+    
+}
+
+#lab{
+    position: absolute;
+    float: right;
+    top: 300px;
+    padding-left: 500px;
+}

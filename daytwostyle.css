@@ -1,0 +1,41 @@
+body{
+    background-color: dimgray;
+}
+h2{
+    font-family: 'Roboto Mono', monospace;
+    position: absolute;
+    margin: 50px;
+    padding: 10px;
+}
+img{
+    position: absolute;
+    padding: 20px;
+    top: 200px;
+    left: 450px;
+    
+}
+h4{
+    font-family: 'Great Vibes', cursive;
+    font-size: 24px;
+    position: absolute;
+    left: 600px;
+    top: 200px;
+    padding: 10px;
+    
+}
+h3{
+    font-family: 'Roboto Mono', monospace;
+    position: absolute;
+    right: 70px;
+    top: 50px;
+}
+#boxa{
+    font-family: 'Roboto Mono', monospace;
+    color:#FFFFFF;
+    font-size: 13px;
+    position: absolute;
+    padding: 20px;
+    margin:10px;
+    top: 150px;
+    width: 50%;
+}
