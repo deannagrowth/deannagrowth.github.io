@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.3/socket.io.js"></script>
+<script>
+var port=8001
+ var url="localhost"
+var socket = io.connect(url+':'+port);
+
+socket.on('api', function (data) {
+console.log(data.api)
+document.getElementById("one").innerHTML = data.api["1"];
+document.getElementById("two").innerHTML = data.api["2"];
+document.getElementById("three").innerHTML = data.api["3"];
+	});
+</script>
+
+</head>
+<body>
+
+<div id="one">ONE</div>
+<div id="two">TWO</div>
+<div id="three">THREE</div>
+</body>
+</html>

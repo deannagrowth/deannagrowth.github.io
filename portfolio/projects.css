@@ -1,0 +1,108 @@
+body {
+    background-image: url("imgs/gamebackground.png");
+    position: absolute;
+    margin: 50px;
+    z-index: -1;
+    background-color: #96d45d;
+}
+
+#logo{
+    position: static;
+    top: 0px;
+    margin: 20px;
+    left: 0px;
+}
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 60px; /* Location of the box */
+  right: 40px;
+  top: 225px;
+  width: 40%; /* Full width */
+  height: 25%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: #2813d1; /* Fallback color */
+  background-color: rgba(40,19,209,0.7); /*w/ opacity */
+}
+.modal-content {
+  background-color: ##4417b8;
+    color: aliceblue;
+  margin: 4px;
+  padding: 20px;
+  border: 1px solid #888;
+    height: 50%;
+  width: 80%;
+}
+.close {
+  color: #57da06;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+img{
+    position: absolute;
+    margin: 30px;
+    top: 650px;
+}
+#myBtn{
+    position: absolute;
+    background-color: #2813d1;
+    color: aliceblue;
+    border: 14px;
+    border-color: #2813d1;
+    font-family: 'Arvo', serif;
+    font-size: 18px;
+    top: 400px;
+    left: 530px;
+    border-radius: 12px;
+}
+h2{
+    position: absolute;
+    top: 140px;
+    margin: 0px;
+    font-family: 'Arvo', serif;
+    color: aliceblue;
+}
+#image1{
+    margin: 0 auto;
+    left: 0px;
+ 
+}
+#image2{
+top:550px;
+ left: 250px;
+}
+#image3{
+   left: 555px;
+}
+#image4{
+    top: 1150px;
+    margin: 20px;
+  left: 20px;
+}
+#image5{
+    top: 1100px;
+    margin: 20px;
+  left: 250px;
+}
+.first{
+    position: absolute;
+
+}
+.second{
+    position: absolute;
+    top: 550px;
+    left: 300px;
+}
+#video2{
+    position: absolute;
+    left: 600px;
+    top: 1100px;
+}
