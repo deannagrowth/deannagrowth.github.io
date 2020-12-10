@@ -9,6 +9,7 @@ function typeWriter() {
     setTimeout(typeWriter, speed);
   }  
 }
+
 function myFunction() {
     
   document.getElementById("dosomething").style.color = "#2813d1";
