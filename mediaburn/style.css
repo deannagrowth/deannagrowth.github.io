@@ -182,13 +182,13 @@ p{
     z-index: 13;
 }
 h3{
-    position: relative;
+    position: absolute;
     color: aliceblue;
     width: 100%;
     font-size: 36px;
     font-family: 'Source Code Pro', monospace;
-    top: 150px;
-    left: 200px;
+    top: 1000px;
+    left: 70px;
 }
 
 #imagelist{

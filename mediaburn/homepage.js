@@ -16,6 +16,6 @@ function typeWriter() {
 
 function myFunction() {
     
-  document.getElementById("dosomething").style.color = "#2813d1";
+  document.getElementById("dosomething").style.color = "#FF0000";
     
 }
