@@ -1,6 +1,10 @@
 var i = 0;
-var txt = 'Welcome to our site ... :)';
+var txt = 'Welcome to cyberspace ... :)';
 var speed = 100;
+var date = new Date();
+
+
+
 
 function typeWriter() {
   if (i < txt.length) {
