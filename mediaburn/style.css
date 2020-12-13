@@ -119,6 +119,22 @@ button:hover {
   color: blue;
 }
 
+.parent{
+  height:200px;
+  position:absolute;
+}
+.overlay{
+  background-color:rgba(0,0,0,.5);
+
+
+  /*animate*/
+  transition: all .3s ease-in;
+}
+/* hover effect*/
+.parent:hover .overlay{
+  opacity:0;
+}
+
 /*
 i triied
 #letter-pink{
@@ -190,6 +206,32 @@ h3{
     top: 1000px;
     left: 70px;
 }
+.heart {
+  fill: red;
+  position: relative;
+  top: 5px;
+
+    margin-left: 100px;
+  width: 50px;
+  animation: pulse 1s ease infinite;
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.3); }
+  100% { transform: scale(1); }
+}
+
+.droptarget {
+position: absolute;
+    top: 600px;
+  width: 100px; 
+  height: 35px;
+  margin: 15px;
+  padding: 10px;
+  border: 1px solid #aaaaaa;
+}
+
 
 #imagelist{
     position: relative;

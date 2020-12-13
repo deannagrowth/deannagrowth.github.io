@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>
 deanna designer
         </title>
@@ -11,8 +11,7 @@ deanna designer
         <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap" rel="stylesheet">
         <script type="text/javascript" src="homepage.js"defer></script>
-        
-
+    
       
         <header>
             
@@ -30,7 +29,7 @@ deanna designer
                 </div>
                 </div>
             <li><a href="#navigation">Navigation</a> </li>
-            <li><a href="#">About Us</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
             </ul>
             </nav>
 <img class ="clicka" onclick= "typeWriter()"src = "imgs/File_001.jpeg" height="100px"; width="100px">
@@ -44,13 +43,15 @@ deanna designer
     <body>
          <p id="draw"></p>
          <div class="back"> test</div>
+        <!-- okay this just the back of the page, black background-->
         
-    <img style="position: absolute; z-index: 12; margin-top: 100px; margin-left: 70px" src="imgs/File_000.jpeg"height="200px"; width="228px" id="reveal">
-    <img style="position: absolute; z-index: 12; margin-top: 109px; margin-left: 655px" src="imgs/File_005.jpeg" height="228px"; width="228px" id="reveal">
-    <img style="position: absolute; z-index: 12; margin-top: 109px; margin-left: 377px" src="imgs/File_003.jpeg" height="220px"; width="228px" id="reveal">
-    <img style="position: absolute; z-index: 12; margin-top: 100px; margin-left: 955px" src="imgs/File_008.jpeg" height="230px"; width="228px" id="reveal">
+        <div class="parent">
+    <img class ="overlay" style="position: absolute; z-index: 12; margin-top: 100px; margin-left: 70px" src="imgs/File_000.jpeg"height="200px"; width="228px" id="reveal">
+    <img class ="overlay" style="position: absolute; z-index: 12; margin-top: 109px; margin-left: 655px" src="imgs/File_005.jpeg" height="228px"; width="228px" id="reveal">
+    <img class ="overlay" style="position: absolute; z-index: 12; margin-top: 109px; margin-left: 377px" src="imgs/File_003.jpeg" height="220px"; width="228px" id="reveal">
+    <img class ="overlay" style="position: absolute; z-index: 12; margin-top: 100px; margin-left: 955px" src="imgs/File_008.jpeg" height="230px"; width="228px" id="reveal">
 <!--<button id="logoButton" type='text'>Get Logo</button>-->
-       
+        </div>
         
         <div class="letters">
         
@@ -65,8 +66,40 @@ deanna designer
 <!--        <img class= "top" src="imgs/mern.png" alt="Photo of Deanna" height="400px"; width="350px">-->
 
 <!--        </div>-->
+        <p style="position: absolute; font-size: 16px"> Each of our designs are made with intent of a person and a purpose. <br> If we don't plan we won't execute <br> I'm sure my fellow students can relate, too</p>
+        
+        <svg class="heart" viewBox="0 0 32 29.6">
+  <path d="M23.6,0c-3.4,0-6.3,2.7-7.6,5.6C14.7,2.7,11.8,0,8.4,0C3.8,0,0,3.8,0,8.4c0,9.4,9.5,11.9,16,21.2
+	c6.1-9.3,16-12.1,16-21.2C32,3.8,28.2,0,23.6,0z"/>
+</svg> 
+<!--        first heart-->
+        <svg style="margin-left: 150px;" class="heart" viewBox="0 0 32 29.6">
+  <path d="M23.6,0c-3.4,0-6.3,2.7-7.6,5.6C14.7,2.7,11.8,0,8.4,0C3.8,0,0,3.8,0,8.4c0,9.4,9.5,11.9,16,21.2
+	c6.1-9.3,16-12.1,16-21.2C32,3.8,28.2,0,23.6,0z"/>
+</svg> 
+<!--    second heart-->
+    <svg style="margin-left: 150px;" class="heart" viewBox="0 0 32 29.6">
+  <path d="M23.6,0c-3.4,0-6.3,2.7-7.6,5.6C14.7,2.7,11.8,0,8.4,0C3.8,0,0,3.8,0,8.4c0,9.4,9.5,11.9,16,21.2
+	c6.1-9.3,16-12.1,16-21.2C32,3.8,28.2,0,23.6,0z"/>
+</svg>
+<!--        third heart-->
+        <svg style="margin-left: 200px;" class="heart" viewBox="0 0 32 29.6">
+  <path d="M23.6,0c-3.4,0-6.3,2.7-7.6,5.6C14.7,2.7,11.8,0,8.4,0C3.8,0,0,3.8,0,8.4c0,9.4,9.5,11.9,16,21.2
+	c6.1-9.3,16-12.1,16-21.2C32,3.8,28.2,0,23.6,0z"/>
+</svg>
+<!--        fourth heart-->
+<!--
+<div style="margin-left: 200px;"class="droptarget" ondrop="drop(event)" ondragover="allowDrop(event)">
+
+  <p style="font-size: 16px; margin-left: 40px;"ondragstart="dragStart(event)" ondrag="dragging(event)" draggable="true" id="dragtarget">Drag me!</p>
+</div>
+
+<div style="margin-left: 900px;" class="droptarget" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+these were a little attempt at a drag and drop        
+-->
+
         <h3 style="margin-left: 900px;" onclick="myFunction()">DS() Media<span id="dosomething">Burns</span></h3>
-        <h3 style="top: 550px; margin-left: 0px;"> Visit our sister sites!</h3>
+        <h3 style=" position: absolute; top: 700px; margin-left: 0px;"> Visit our sister sites!</h3>
         <div id="imagelist">
         <a href="imgs/page1.PNG"><img src="imgs/page1.PNG" width="200px" height="200px"></a>
         <a href="imgs/page2.PNG"><img src="imgs/page2.PNG" width="200px" height="200px"></a>
